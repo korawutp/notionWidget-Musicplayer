@@ -57,5 +57,16 @@
   </div>
 
   <script src="genshinmusicplayer.js"></script>
+    
+  <!-- Autoplay -->
+  <script>
+    window.onload = function() {
+      initPlayer();
+      selectTrack(0);
+      audio.play().catch(function(error) {
+        console.log('Autoplay failed due to browser restrictions.', error);
+      });
+    };
+  </script>
 </body>
 </html>
