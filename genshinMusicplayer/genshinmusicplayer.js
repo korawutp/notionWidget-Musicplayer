@@ -37,11 +37,11 @@ $(function () {
         "Genshin impact.OST",
       ],
       trackNames = [
-        "Genshin impact.OST - Liyue",
-        "Genshin impact.OST - Fontaine",
-        "Genshin impact.OST - Inazuma",
-        "Genshin impact.OST - Mondstadt",
-        "Genshin impact.OST - Sumeru",
+        "Liyue.OST",
+        "Fontaine.OST",
+        "Inazuma.OST",
+        "Mondstadt.OST",
+        "Sumeru.OST",
       ],
       albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
       trackUrl = [
